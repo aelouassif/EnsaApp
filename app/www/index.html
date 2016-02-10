@@ -7,6 +7,7 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
@@ -23,11 +24,33 @@
   </head>
   <body ng-app="starter">
 
+    <!-- Note : La classe pour les h1 est répété plusieurs fois devra etre modifié, les <br /> présente une solution sale à modifier également -->
     <ion-pane>
-      <ion-header-bar class="bar-stable">
-        <h1 class="title">Ionic Blank Starter</h1>
-      </ion-header-bar>
-      <ion-content>
+      <ion-content class="m_home">
+        <ion-slide-box on-slide-changed="slideHasChanged($index)">
+            <ion-slide>
+                <h1 class="m_home_title" align="center">EnsaApp</h1>
+                <p>Retrouvez toutes les ressources dont vous avez besoin dans un seul endroit ! </p>
+                <br /><br /><br /><br />
+            </ion-slide>
+            <ion-slide>
+                <h1 class="m_home_title" align="center">Des Cours</h1>
+                <p>Regroupées par niveau et fillière, rattraper sans problème une séance perdu !</p>
+                <br /><br /><br /><br />
+            </ion-slide>
+            <ion-slide>
+                <h1 class="m_home_title" align="center">Des Tds</h1>
+                <p>Classés selon niveau de diffucilté, correction incluse bien sur !</p>
+                <br /><br /><br /><br />
+            </ion-slide>
+            <ion-slide>
+                <h1 class="m_home_title" align="center">Des exams</h1>
+                <p>Mettez toutes les chances de votre coté en préparent les anciens exams (correction incluse) </p>
+            <br /><br /><br /><br />
+            </ion-slide>
+        </ion-slide-box>
+
+
       </ion-content>
     </ion-pane>
   </body>

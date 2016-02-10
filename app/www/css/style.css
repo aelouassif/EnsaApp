@@ -1,1 +1,23 @@
 /* Empty. Add your own CSS if you like */
+.m_home 
+{
+    background-image: url('../img/bg_ensa.png');
+    background-size: cover;
+}
+.m_home_title
+{
+    color: #1E2064;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800; 
+}
+.m_home .scroll
+{
+    height: 70%;
+    width: 100%;
+    padding-top: 30%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #1E2064;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+}
