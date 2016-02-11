@@ -21,3 +21,13 @@
     font-family: 'Exo 2', sans-serif;
     font-weight: 800;
 }
+*
+{
+    font-family: 'Exo 2', sans-serif;
+}
+.m_arrow
+{
+    color: white;
+    padding-top: 20%;
+    font-size: 130%;
+}
