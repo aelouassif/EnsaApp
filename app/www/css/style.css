@@ -53,5 +53,13 @@
     padding-top:10%;
     padding-bottom: 10%;
 }
-
-http://ionicframework.com/docs/components/#header
+*
+{
+    font-family: 'Exo 2', sans-serif;
+}
+.m_arrow
+{
+    color: white;
+    padding-top: 20%;
+    font-size: 130%;
+}
