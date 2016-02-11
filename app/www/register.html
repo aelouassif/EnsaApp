@@ -7,8 +7,8 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
-
+    <!--<link href='https://fonts.googleapis.com/css?family=Exo+2:400,800' rel='stylesheet' type='text/css'>
+-->
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
@@ -22,7 +22,7 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="starter">
+  <body ng-app="starter" ng-controller="Filieres">
 
     <!-- Note : La classe pour les h1 est répété plusieurs fois devra etre modifié, les <br /> présente une solution sale à modifier également -->
     <ion-pane>
@@ -33,41 +33,7 @@
             <h1 class="title">je suis en ... </h1>
         </ion-header-bar>
         <ion-content>
-        <div class="list">
-            <a class="item item-thumbnail-left" href="register_cp.html">
-                <img src="img/cp1.jpg">
-                <h2>Cycle Préparatoire</h2>
-                <p>1ère année<br />
-                   2ème année</p>
-            </a>
-            <a class="item item-thumbnail-left" href="register_gi.html">
-                <img src="img/gi1.jpg">
-                <h2>Génie Informatique</h2>
-                <p>1ère année<br />
-                   2ème année<br />
-                   3ème année<br /></p>
-            </a>
-            <a class="item item-thumbnail-left" href="register_grt.html">
-                <img src="img/grt1.jpg">
-                <h2>Génie Réseaux et télécoms</h2>
-                <p>1ère année<br />
-                   2ème année<br />
-                   3ème année</p>
-            </a>
-            <a class="item item-thumbnail-left" href="register_ge.html">
-                <img src="img/ge1.jpg">
-                <h2>Génie Electrique</h2>
-                <p>1ère année<br />
-                   2ème année<br />
-                   3ème année</p>
-            </a>
-            <a class="item item-thumbnail-left" href="register_gil.html">
-                <img src="img/gil1.jpg">
-                <h2>Génie industrielle</h2>
-                <p>1ère année<br />
-                   2ème année<br />
-                   3ème année</p>
-            </a>      
+        <div id="filieres">
         </div>
       </ion-content>
     </ion-pane>
