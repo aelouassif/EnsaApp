@@ -1,6 +1,6 @@
 <?php
-    $bdd = new mysqli("localhost", "root", "", "ensaApp");
-
+    require_once("connect.php");
+    
     $req = $bdd->query("SELECT * FROM filiere");
 
     $myArray = array();
