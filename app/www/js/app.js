@@ -22,24 +22,16 @@ angular.module('starter', ['ionic'])
     }
   });
 })
-//angular.module('filieres', [])
-.controller('Filieres', function($scope, $http) 
+.controller('FilieresController', function($scope, $http, $timeout) 
 {
+    $scope.data = [];
     $http.get('http://localhost/EnsaApp/server/filieres.php').then(function(resp) 
         {
-            document.getElementById("filieres").innerHTML = '<div class="list">';
-            for(var i = 0; i < resp.data.length; i++)
-            {
-                document.getElementById("filieres").innerHTML += '<a class="item item-thumbnail-left" href="register_' + resp.data[i]["id"] + '.html" > <img src="../../server/img/filiere_' + resp.data[i]["id"] + '.jpg"> <h2>' + resp.data[i]["nom"] + '</h2> </a>'; 
-            }
-
-            document.getElementById("filieres").innerHTML += "</div>";
-            console.log(resp.data);
-
+            $scope.data = resp.data;
         },
         function(err) 
         {
             console.error('ERR', err);
-        })
-})
+        });
+});
 

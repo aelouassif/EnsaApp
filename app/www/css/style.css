@@ -1,9 +1,4 @@
 /* Empty. Add your own CSS if you like */
-.m_home
-{
-    background-image: url('../img/bg_ensa.png');
-    background-size: cover;
-}
 .m_bg
 {
     background-image: url('../img/bg_ensa.png');
@@ -12,22 +7,18 @@
 }
 .m_home_title
 {
-    color: #1E2064;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 800;
+    color: #1E2064; 
+    font-family: 'Exo 2', sans-serif; 
+    font-weight: 800; 
 }
 .m_home .scroll
 {
     height: 70%;
     width: 100%;
-    padding-top: 30%;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 30% 10% 0% 10%;
     color: #1E2064;
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 400;
 }
-.m_cente /*<img src="img/android-book.png"> */
+.m_cente
 {
     height: 70%;
     width: 100%;
@@ -50,8 +41,7 @@
 }
 .m_row
 {
-    padding-top:10%;
-    padding-bottom: 10%;
+    padding: 10% 0% 10% 0%;
 }
 *
 {
