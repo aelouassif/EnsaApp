@@ -9,10 +9,20 @@ L'application pourra etre déployé sur d'autrés universités ou écoles .
 
 Ca ne reste qu'un projet étudiant est n'est donc en aucun cas affilié à l'ENSA Marrakech ou à l'université Cadi Ayad .
 
+## A quoi ca ressemble ?
+
+Pour le moment à ca :
+
+![Alt text](presentation/img/pre1.png)
+![Alt text](presentation/img/pre2.png)
+![Alt text](presentation/img/pre3.png)
+
 ## Avancement du projet
 
 | Partie            | Technique  | Contenu |
 | ----------------- | :--------: | :-----: |
+| Inscription       | 30%        | N/A     |
+| Connexion         | 0%         | N/A     |
 | Cours             | 0%         | 0%      |
 | TDs               | 0%         | 0%      |
 | Tps               | 0%         | 0%      |
@@ -24,7 +34,7 @@ Ca ne reste qu'un projet étudiant est n'est donc en aucun cas affilié à l'ENS
 
 ## Technlogies utilisés
 
-Nous avons utilisés les technologies suivantes dans le dévlopement de cette application : HTML/CSS, Javascript, PHP, Phonegap/Cordova et IonicFramework .
+Nous avons utilisés les technologies suivantes dans le dévlopement de cette application : HTML/CSS, Javascript, AngularJs, PHP, Phonegap/Cordova et IonicFramework .
 
 ## License
 
