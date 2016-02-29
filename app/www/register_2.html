@@ -22,7 +22,7 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="starter" ng-controller="FilieresController as filieres">
+  <body ng-app="starter" ng-controller="NiveauController as niveaux">
 
     <!-- Note : La classe pour les h1 est répété plusieurs fois devra etre modifié, les <br /> présente une solution sale à modifier également -->
     <ion-pane>
@@ -30,13 +30,13 @@
             <a href="index.html" class="m_arrow">
                 <i class="icon ion-chevron-left"></i>
             </a>
-            <h1 class="title">je suis en ... </h1>
+            <h1 class="title">Super ! quel niveau ? </h1>
         </ion-header-bar>
         <ion-content>
-        <div id="list" ng-repeat="filiere in data">
-        <a class="item item-thumbnail-left" href="register_2.html?filiere={{filiere['id']}}">
-            <img ng-src="{{rootServ}}/img/filiere_{{filiere['id']}}.jpg" />
-            <h2> {{filiere['nom']}} </h2>
+        <div id="list" ng-repeat="niveau in data">
+        <a class="item item-thumbnail-left" href="#?niveau={{niveau['id']}}">
+            <img ng-src="{{rootServ}}/img/niveau_{{niveau['id']}}.jpg" />
+            <h2> {{niveau['nom']}} </h2>
         </a>
         </div>
       </ion-content>

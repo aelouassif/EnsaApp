@@ -1,5 +1,8 @@
 // Ionic Starter App
 
+//Configuration à modifier si vous voulez déployer ce script
+rootServ = 'http://localhost/EnsaApp/server';
+
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
@@ -24,6 +27,7 @@ angular.module('starter', ['ionic'])
 })
 .controller('FilieresController', function($scope, $http, $timeout) 
 {
+    $scope.rootServ = rootServ;
     $scope.data = [];
     $http.get('http://localhost/EnsaApp/server/filieres.php').then(function(resp) 
         {
