@@ -34,7 +34,7 @@
         </ion-header-bar>
         <ion-content>
         <div id="list" ng-repeat="filiere in data">
-        <a class="item item-thumbnail-left" href="register_2.html?filiere={{filiere['id']}}">
+        <a class="item item-thumbnail-left" ng-click="setFiliere(filiere['id']);" href="register_2.html">
             <img ng-src="{{rootServ}}/img/filiere_{{filiere['id']}}.jpg" />
             <h2> {{filiere['nom']}} </h2>
         </a>

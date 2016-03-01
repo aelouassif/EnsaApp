@@ -30,11 +30,11 @@
             <a href="index.html" class="m_arrow">
                 <i class="icon ion-chevron-left"></i>
             </a>
-            <h1 class="title">Super ! quel niveau ? </h1>
+            <h1 class="title">Super ! quel niveau </h1>
         </ion-header-bar>
         <ion-content>
         <div id="list" ng-repeat="niveau in data">
-        <a class="item item-thumbnail-left" href="#?niveau={{niveau['id']}}">
+        <a class="item item-thumbnail-left" href="#">
             <img ng-src="{{rootServ}}/img/niveau_{{niveau['id']}}.jpg" />
             <h2> {{niveau['nom']}} </h2>
         </a>
