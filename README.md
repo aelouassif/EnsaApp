@@ -21,7 +21,7 @@ Pour le moment à ca :
 
 | Partie            | Technique  | Contenu |
 | ----------------- | :--------: | :-----: |
-| Inscription       | 30%        | N/A     |
+| Inscription       | 60%        | N/A     |
 | Connexion         | 0%         | N/A     |
 | Cours             | 0%         | 0%      |
 | TDs               | 0%         | 0%      |
