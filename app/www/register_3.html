@@ -22,7 +22,7 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
   </head>
-  <body ng-app="starter" ng-controller="NiveauController as niveaux">
+  <body ng-app="starter" ng-controller="FormRegisterController as formR">
 
     <!-- Note : La classe pour les h1 est répété plusieurs fois devra etre modifié, les <br /> présente une solution sale à modifier également -->
     <ion-pane>
@@ -30,14 +30,31 @@
             <a href="index.html" class="m_arrow">
                 <i class="icon ion-chevron-left"></i>
             </a>
-            <h1 class="title">Super ! quel niveau </h1>
+            <h1 class="title">Presque ! </h1>
         </ion-header-bar>
         <ion-content>
-        <div id="list" ng-repeat="niveau in data">
-        <a class="item item-thumbnail-left" href="register_3.html">
-            <img ng-src="{{rootServ}}/img/niveau_{{niveau['id']}}.jpg" />
-            <h2> {{niveau['nom']}} </h2>
-        </a>
+        <div class="list list-inset">
+        <form ng-click="formR.registre()" novalidate>
+          <label class="item item-input">
+            <input type="text" name="prenom" placeholder="Prénom" ng-model="prenom">
+          </label>
+          <label class="item item-input">
+            <input type="text" name="nom" placeholder="Nom" ng-model="nom">
+          </label>
+          <label class="item item-input">
+            <input type="text" name="pseudo" placeholder="Pseudonyme" ng-model="pseudo">
+          </label>
+          <label class="item item-input">
+            <input type="password" name="password" placeholder="Mot de Passe" ng-model="password">
+          </label>
+          <label class="item item-input">
+            <input type="password" name="password2" placeholder="Retapez votre mot de passe" ng-model="password2">
+          </label>
+          <label class="item item-input">
+            <input type="email" name="email" placeholder="Adresse Email" ng-model="email">
+          </label>
+          <input type="submit" value="Let's Go" ng-click="formR.registre();" class="button button-block button-positive">
+        </form>
         </div>
       </ion-content>
     </ion-pane>

@@ -112,3 +112,7 @@ angular.module('starter', ['ionic'])
     };
 })
 
+.controller('FormRegisterController', function($scope, $http, $timeout) 
+{
+    
+});
