@@ -16,12 +16,13 @@ Pour le moment à ca :
 ![Alt text](presentation/img/pre1.png)
 ![Alt text](presentation/img/pre2.png)
 ![Alt text](presentation/img/pre3.png)
+![Alt text](presentation/img/pre4.png)
 
 ## Avancement du projet
 
 | Partie            | Technique  | Contenu |
 | ----------------- | :--------: | :-----: |
-| Inscription       | 60%        | N/A     |
+| Inscription       | 80%        | N/A     |
 | Connexion         | 0%         | N/A     |
 | Cours             | 0%         | 0%      |
 | TDs               | 0%         | 0%      |
